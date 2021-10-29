@@ -1,0 +1,391 @@
+@charset "utf-8";
+
+/* リセット */
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+p,
+dl {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #4f260b;
+    font-family: "A1 Mincho", "游明朝", YuMincho, "Hiragino Mincho ProN W3",
+        "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+        "ＭＳ 明朝", serif;
+    font-feature-settings: "palt";
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+.header_container_wrap {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.bkc {
+    background-color: #e8d8bf;
+}
+.header_containe{
+    max-width:100%
+    padding-left:3.12%;
+    padding-right:6.45%;
+    color:E8D9BF;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:10px;
+    box-sizing:border-box;
+    z-index: 1000;
+}
+.header_container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 2.86%;
+    padding-right: 5.46%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.header_container h1 {
+    width: 226px;
+}
+.header_nv ul {
+    display: flex;
+    justify-content: flex;
+}
+
+.header_nv li {
+    max-width: 100%;
+    width: 104px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+.slider_1 img {
+    width: 100%;
+    background-color: #e8d8bf;
+}
+
+
+.h1_ta {
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+    font-feature-settings: "palt";
+    font-weight: normal;
+}
+h2 {
+    font-weight: normal;
+    font-size: 80px;
+    margin: 61px;
+    font-feature-settings: "palt";
+}
+p {
+    font-weight: normal;
+    font-size: 23px;
+    font-feature-settings: "palt";
+    line-height: 38px;
+}
+.about_yoko {
+    justify-content: center;
+    display: flex;
+}
+.cohii {
+    height: 560px;
+    width: 500px;
+    border-bottom-right-radius: 30px 50px;
+    margin: 100px 0 0 0;
+}
+.about_botann {
+    height: 53px;
+    width: 251px;
+    margin: 160px 0 0 86px;
+}
+h3 {
+    margin-left: 86px;
+    margin-top: 56px;
+    font-size: 44px;
+    font-weight: normal;
+    line-height: 61px;
+    font-feature-settings: "palt";
+}
+h4 {
+    margin-top: 44px;
+    margin-left: 86px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    font-feature-settings: "palt";
+}
+.meni_se {
+    margin: 110px auto 0;
+    max-width: 1000px;
+}
+.menugazou {
+    display: flex;
+    width: 150px;
+}
+.meni_se h5 img {
+    margin: 110px auto 0;
+           }
+
+    .wrap {
+    justify-content:space-between;
+    display: flex;
+    margin-top: 51px;
+
+}
+.wrap li {
+    display: flex;
+}
+.dfs {
+    width: 30%;
+}
+.dfs img {
+    border-top-right-radius: 40px;
+}
+h5 {
+    font-size: 38px;
+    font-weight: Medium;
+    color: #d30202;
+    margin-top: -20px;
+}
+.mozi {
+    font-family: 游明朝体;
+    font-size: 17px;
+    list-style: 1.47px;
+    font-feature-settings: "palt";
+    color: #4f260b;
+    margin-top: 10px;
+}
+
+.galleryimg{
+    min-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.gsss {
+    justify-content: center;
+    display: flex;
+    padding-top: 22px;
+}
+.gassimg{
+    display: block;
+    width: 245px;
+    margin: 0 auto;
+    margin-top: 95px;
+}
+.event {
+    justify-content: center;
+    display: flex;
+    max-width: 1000px;
+    padding-top: 71px;
+    padding-bottom: 39px;
+    margin: 0 auto;
+}
+.eventimg{
+    width: 175px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.box {
+    margin: 0 auto;
+    border: solid 3px #4f260b;
+    width: 988px;
+    background-color: white;
+    font-size: 23px;
+    font-feature-settings: "palt";
+    text-justify: auto;
+    padding: 70px 0;
+}
+.spees {
+    margin-left: 40px;
+    margin-top: 40px;
+    border-bottom: solid 1px #4f260b;
+    justify-content: center;
+    padding: 0 auto;
+    line-height: 1.95px;
+}
+.ACCESS {
+    justify-content: center;
+    display: flex;
+    padding-top: 81px;
+    padding-bottom: 51px;
+}
+.ACCESS img{
+    width: 213px;
+}
+.heaad{
+    width: 113px;
+    height: 53px;
+    margin-left: 150px;
+}
+.footer {
+    color: #000;
+    margin: 5px 0;
+    justify-content: center;
+    padding-left: 90px;
+}
+.maru {
+    width: 125px;
+    height: 125px;
+    position: fixed;
+    right: 20px;
+    margin-left: 40px;
+    bottom: 20px;
+}
+.last {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 2.18px;
+    font-feature-settings: "palt";
+    padding-top: 79px;
+}
+.box li {
+    padding: 20px 0;
+    padding-left: 143px;
+}
+.bkc2{
+    background-color: #e8d8bf;
+}
+.saigo {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 70px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.saigo li {
+    padding: 10px 0;
+}
+.header_container_wrap{
+
+}
+header_container_wrap{
+}
+.slick-dots{
+    bottom: 30px;
+}
+.slick-dots .slider{
+    margin-bottom: 0;
+}
+.tizu iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.sp_nv {
+    max-width: none;
+}
+/* .header_container_wrap */
+/* @media screen and (max-width: 1024ox) {
+    .header_nv {
+        display: none;
+    }
+}
+.sp_menu_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+}
+.sp_menu_btn {
+    background-color: white;
+    width: 33px;
+    height: 3px;
+    display: block;
+    position: relative;
+}
+.sp_menu_btn span::content::before,
+.sp_menu_ span btn::after {
+    content: "";
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    transition: 03s;
+}
+.sp_menu_btn::before {
+    bottom: 10px;
+}
+.sp_menu_btn::before {
+    top: 10px;
+}
+.open span {
+    background: transparent;
+}
+.open_menu_btn span::content::before {
+    transform: rotate(45deg);
+    bottom: 0;
+}
+
+.open_menu_ span btn::after {
+    transform: rotate(135deg);
+    top: 0;
+}
+.sp_nv_btn {
+    display: none;
+}
+.sp_nv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba(000, 000, 000, 0.8px);
+    width: 100%;
+}
+.sp_nv ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.sp_nv li {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+} */

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デザインカフェ</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="desucription" content="デザインカフェがオープンしました.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header_container_wrap">
+            <div class="header_container">
+                <h1><img src="images/design_cafe_logo_header@2x.png" alt="デザインカフェのロゴ"></h1>
+                <nav class="header_nv">
+                    <ul>
+                        <li><a href="#About_us">ABOUT US</a></li>
+                        <li><a href="#Menu">MENU</a></li>
+                        <li><a href="#Gallery">GALLERY</a></li>
+                        <li><a href="Event">EVENT</a></li>
+                        <li><a href="Access">ACCESS</a></li>
+                    </ul>
+                </nav>
+                <!-- <nav class="sp_nv">
+                    <ul>
+                        <li><a href="#About_us">ABOUT US</a></li>
+                        <li><a href="#Menu">MENU</a></li>
+                        <li><a href="#Gallery">GALLERY</a></li>
+                        <li><a href="Event">EVENT</a></li>
+                        <li><a href="Access">ACCESS</a></li>
+                    </ul>
+                </nav>
+                <div class=""sp_nv_btn_open><span>_</span></div> -->
+            </div>
+        </div>
+        
+        <div class="slider_1">
+            <div>
+                <div>
+                    <img src="images/pc_first-100.jpg" alt="デザインカフェの様子">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="images/slider_2.jpg" alt="デザインカフェの様子">
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function(){
+                $(".sp_nv_btn,.sp_nv_btn li a").click(function(){
+                    $(".sp_nv_btn").toggleClass("open");
+                    $(".sp_nv_").fadeToggle();
+                });
+            });
+            $(".slider_1").slick({
+                autoplayspeed: 2000,
+                autoplay: true,
+                dots: true,
+            });
+        </script>
+    </header>
+
+    <div class="bkc">
+        <div class="maru">
+            <img src="images/to_top@2x.png" alt="固定ボタン">
+        </div>
+        <div class="h1_ta">
+            <h1>Have a happy day From a cup of coffee.</h1>
+            <h2>ハッピーに溢れる1日を<br> 1 杯 のコーヒー から。</h2>
+            <p>毎日を丁 寧に大 切に過ごしたい。だからこそ一 杯 一 杯 丁 寧にコーヒーを入れ<br> 足を運んでくれるお客さんには落ち着く空 間とこだわりのコーヒーを提 供したい。
+            </p>
+        </div>
+        <div class="about_yoko">
+            <div>
+                <img src="images/pc_about-100.jpg" alt="" class="cohii" />
+            </div>
+            <div>
+                <img src="images/about_us@2x.png" alt="" class="about_botann" />
+                <h3>私たちが提供する<br>こだわりのコーヒー</h3>
+                <h4>サービスを提供する上での想いや心がけていることなど、メッ<br>セージを文章で紹介します。サービスを提供する上での想い<br>や心がけていることなど、メッセージを文章で紹介します。サー<br>ビスを提供する上での想いや心がけていることなど、メッセー<br>ジを文章で紹介します。サービスを提供する上での想いや心<br>がけていることなど、メッセージを文章で紹介します。サービス<br>を提供する上での想いや心がけていることなど、メッセージを<br>文章で紹介します。
+                </h4>
+            </div>
+        </div>
+        <div class="meni_se">
+            <h5 class="menu4">
+                <img src="images/menu@2x.png" alt="メニュー表" class="menugazou" />
+            </h5>
+            <div class="wrap">
+                <div class="dfs">
+                    <img src="images/pc_menu_drink-100.jpg" alt="" class="drink">
+                    <h5>Drink</h5>
+                    <p class="mozi">ドリンクメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。</p>
+                </div>
+                <div class="dfs">
+                    <img src="images/pc_menu_food-100.jpg" alt="" class="food">
+                    <h5>Food</h5>
+                    <p class="mozi">フードメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。</p>
+                </div>
+                <div class="dfs">
+                    <img src="images/pc_menu_sweets-100.jpg" class="sweets">
+                    <h5>Sweets</h5>
+                    <p class="mozi">スイーツメニューの概要を100文字程度で紹介します。素材やこだわりなどをアピールしていきます。</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="gallryy">
+            <div class="gallery">
+                <img src="images/gallery@2x.png" alt="" class="gassimg">
+            </div>
+        </div>
+        <ul class=" gsss">
+            <li><img src="images/pc_gallary_05-100.jpg" alt=""></li>
+            <li><img src=" images/pc_gallary_04-100.jpg" alt=""></li>
+            <li><img src=" images/pc_gallary_03-100.jpg" alt=""></li>
+            <li><img src=" images/pc_gallary_02-100.jpg" alt=""></li>
+            <li><img src=" images/pc_gallary_01-100.jpg" alt=""></li>
+        </ul>
+        </div>
+        <div>
+            <div class="bkc2">
+                <div class=" event">
+                    <img src="images/event@2x.png" alt="" class="eventimg">
+                </div>
+                <ul class="box">
+                    <li>2020.06.23<span class="spees">7月はイベント出店のため0/0お休みします</span>　　 　　</li>
+                    <li>2020.03.15<span class="spees">春の新商品新発売。話題のあのブランドとコラボ</span>　　</li>
+                    <li>2020.02.06<span class="spees">コーヒーの日で30％OFFイベントを開催［3日間限定］</span> </li>
+                </ul>
+                <div class="ACCESS">
+                    <img src="images/access@2x.png" alt="">
+                </div>
+                <div class="tizu">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.769987216773!2d139.69944711519994!3d35.65803823885112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b563b00109f%3A0x337328def1e2ab26!2z5riL6LC36aeF!5e0!3m2!1sja!2sjp!4v1634246370357!5m2!1sja!2sjp"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+    <div class="saigo">
+        <img src="images/design_cafe_logo_footer@2x.png" alt=" "class="heaad">
+        <ul class="footer">
+            <li>OPEN 18:00 / CLOSE 24:00</li>
+            <li>〒150-0022</li>
+            <li>東京都渋谷区東京南123デザインビルB1</li>
+            <li>MAIL：info@designcafe.tokyo</li>
+        </ul>
+    </div>
+    <div class="last">© 2021 DESIGN CAFE</div>
+
+</body>
+</html>
